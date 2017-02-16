@@ -10,7 +10,6 @@
 .top-content{
 	width: 970px;
 	height: 26px;
-	
 	margin: 0 auto;
 }
 .top-content-left,.top-content-right{
@@ -34,7 +33,7 @@
 	display: inline-block;
 	height: 10px;
 	width: 10px;
-	background: url(../image/sprite.png) 0 0;
+	background: url(../img/sprite.png) 0 0;
 	line-height: 10px;
 }
 /* 版心 */
@@ -42,7 +41,6 @@
 	width: 970px;
 	height: 1000px;
 	margin: 0 auto;
-	/* background-color: green; */
 }
 	/* logo和搜索部分 */
 .logo{
@@ -53,7 +51,7 @@
 .logo-left{
 	height: 55px;
 	width: 200px;
-	background:url(../image/sprite.fw.png)  0 -10px;
+	background:url(../img/sprite.png)  0 -10px;
 	position: absolute;
 	top: 50%;
 	margin-top: -27.5px;
@@ -64,7 +62,6 @@
 .search{
 	width: 530px;
 	height: 40px;
-	/* background-color: green; */
 	position: absolute;
 	top: 50%; 
 	right: 0;
@@ -80,20 +77,21 @@
 	position: absolute;
 	top: 4px;
 	border: 1px solid #D8D8D8;
-	margin-left: 4px;
+	box-sizing: border-box;
+	float: left;
+	padding-left: 10px;
+	margin: 1px 0 0 4px;
 
 }
 .btn-search{
-	width: 101px;
+	width: 100px;
 	height: 30px;
 	background-color: #2F70D0;
-	margin-left: -5px;
-	position: absolute;
-	top: 4.5px;
-	right: 0;
-	margin-right: 4px;
+	margin: 5px 4px 0 0;
 	color: white;
-	font-size: 20px;
+	font-size: 18px;
+	float: right;
+	letter-spacing: 5px;
 }
 .nav{
 	
@@ -136,7 +134,7 @@
 	background-color: #EBF0F6;
 }
 .banner{
-	background: url(../image/banner.png); 
+	background: url(../img/banner.png);
 	margin-right: 240px;
 	margin-left: 210px; 
 }
@@ -153,6 +151,12 @@
 	line-height: 30px;
 	padding-left: 15px;
 }
+.aside-left a,.build-info a,.top-link{
+	color: #0266A3;
+}
+.aside-left a:hover,.build-info a:hover,.top-link:hover{
+	color: black;
+}
 .aside-left ul li{
 	margin: 9px;
 
@@ -163,7 +167,7 @@
 	vertical-align: middle;
 	height: 20px;
 	width: 20px;
-	background:url(../image/sprite.fw.png) 0 -66px;
+	background:url(../img/sprite.png) 0 -66px;
 }
 .up,.down{
 	height: 95px;
@@ -191,7 +195,7 @@
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background: url(../image/sprite.fw.png) 0 -86px;
+	background: url(../img/sprite.png) 0 -85px;
 	float: left;
 }
 .guide span{
@@ -214,16 +218,16 @@
 .phone{
 	height: 21px;
 	width: 151px;
-	background: url(../image/sprite.fw.png) -60px -66px;
+	background: url(../img/sprite.png) -60px -66px;
 	margin: 0 auto;
 }
 .down a{
 	display: block;
 	height: 23px;
 	width: 82px;
-	background: url(../image/sprite.fw.png) -43px -94px;
+	background: url(../img/sprite.png) -43px -94px;
 	margin: 0 auto;
-	margin-top: 10px; 
+	/*margin-top: 10px; */
 }
 .goods-type-title{
 	height: 35px;
@@ -282,7 +286,7 @@
 	display: inline-block;
 	width: 90px;
 	height: 90px;
-	background: url(../image/build.png);
+	background: url(../img/build.png);
 	margin: 5px;
 
 
@@ -322,7 +326,7 @@
 	display: inline-block;
 	height: 15px;
 	width: 15px;
-	background: url(../image/sprite.fw.png) 0 -126px;
+	background: url(../img/sprite.png) 0 -126px;
 }
 .buy{
 	height: 27px;
@@ -336,7 +340,7 @@
 	height: 27px;
 	width: 100px;
 	vertical-align: middle;
-	background: url(../image/sprite.fw.png) -128px -90px;
+	background: url(../img/sprite.png) -128px -90px;
 }
 .sold-dec{
 	display: inline-block;
@@ -380,7 +384,7 @@
 	display: inline-block;
 	height: 24px;
 	width: 144px;
-	background: url(../image/sprite.fw.png) -17px -124px;
+	background: url(../img/sprite.png) -17px -124px;
 
 }
 .nav-child a{
@@ -396,8 +400,7 @@
 
 .child-content-border{
 	height: 304px;
-	
-	border: 1px solid #C3D7E4;/* 这一句是添加边框的 */
+	border: 1px solid #C3D7E4;
 }
 .child-content-border ul li{
 	float: left;
@@ -411,7 +414,7 @@
 	display: block;
 	width: 170px;
 	height: 170px;
-	background: url(../image/child.gif);
+	background: url(../img/child.gif);
 }
 .child-dec{
 	text-align: center;
@@ -446,13 +449,13 @@
 	display: inline-block;
 	height: 134px;
 	width: 230px;
-	background: url(../image/child-1.gif) no-repeat center;
+	background: url(../img/child-1.gif) no-repeat center;
 }
 .child-c-right-bottom a{
 	display: inline-block ;
 	height: 180px;
 	width: 230px;
-	background: url(../image/chile-2.gif) no-repeat center;
+	background: url(../img/chile-2.gif) no-repeat center;
 }
 /* 工艺美术品 */
 /* 友情链接 */
